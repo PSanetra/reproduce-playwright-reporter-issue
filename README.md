@@ -2,7 +2,7 @@
 
 1. Test code is located in `apps/playwright-tests/src/app.spec.ts`
 2. Install dependencies: `yarn`
-3. Execute playwright tests: `test:playwright`
+3. Execute playwright tests: `yarn test:playwright`
 4. Two tests are executed.
 
 Failing test prints just something like the following:
