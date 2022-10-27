@@ -1,0 +1,17 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "playwright-tests",
+  "projectType": "application",
+  "sourceRoot": "apps/playwright-tests/src",
+  "targets": {
+    "e2e": {
+      "executor": "@nx-extend/playwright:test",
+      "options": {}
+    },
+    "codegen": {
+      "executor": "@nx-extend/playwright:codegen",
+      "options": {}
+    }
+  },
+  "tags": []
+}
